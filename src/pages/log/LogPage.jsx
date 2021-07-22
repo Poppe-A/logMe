@@ -28,7 +28,7 @@ function LogPage() {
 
   const register = (e) => {
     e.preventDefault();
-    LogService.register(username, password).then();
+    LogService.register(username, password).then(() => setIsRegister(false));
   };
 
   const login = (e) => {
