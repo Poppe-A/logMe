@@ -59,6 +59,7 @@ function LogPage() {
           required
         />
         <input
+          type="password"
           className="logInput"
           placeholder="password"
           onChange={(e) => setPassword(e.target.value)}
