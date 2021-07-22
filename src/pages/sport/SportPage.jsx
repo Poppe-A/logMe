@@ -22,7 +22,6 @@ export default function SportPage() {
 
   const validForm = (e) => {
     e.preventDefault();
-    console.log(sports);
     const sportExist = sports.find((elm) => elm.name === newSport);
 
     if (!sportExist) {

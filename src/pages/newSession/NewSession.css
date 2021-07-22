@@ -47,6 +47,25 @@
   border: none;
 }
 
+.continueOrNotView {
+  display: flex;
+  flex-direction: column;
+  padding: 0 30px;
+  font-size: x-large;
+  text-align: center;
+}
+
+.continueOrNotButtons {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.continueOrNotButtons button {
+  font-size: x-large;
+  padding: 10px;
+}
+
 .sessionName {
   font-size: x-large;
   margin-bottom: 30px;
