@@ -1,0 +1,160 @@
+.newSessionPage {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.newSessionForm {
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: x-large;
+}
+
+.newSessionForm input {
+  font-size: x-large;
+  padding: 5px;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  border-bottom: solid 1px white;
+  color: white;
+}
+
+.newSessionForm input::placeholder {
+  color: white;
+}
+
+.newSessionForm select {
+  outline: none;
+  font-size: large;
+  width: 200px;
+  padding: 3px;
+}
+
+.newSessionForm .submitButton {
+  width: auto;
+  font-size: large;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  border: none;
+}
+
+.sessionName {
+  font-size: x-large;
+  margin-bottom: 30px;
+}
+
+.newSessionExercisesContainer {
+  height: 60vh;
+  overflow: scroll;
+}
+
+.newSessionExercisesContainer button {
+  align-self: center;
+  font-size: large;
+  padding: 7px;
+  margin-top: 30px;
+}
+
+.newSessionExercise {
+  display: flex;
+  justify-content: space-between;
+  font-size: large;
+  margin-bottom: 5px;
+}
+
+.sessionButtonContainer {
+  width: 100vw;
+  position: absolute;
+  left: 0;
+  bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px;
+  box-sizing: border-box;
+}
+
+.sessionButtonContainer button {
+  width: 140px;
+  font-size: large;
+  padding: 5px;
+  border: solid 1px white;
+  background-color: transparent;
+  color: white;
+}
+
+.exercisePopup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.712);
+  color: white;
+}
+
+.exercisePopupContent {
+  width: 80%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: white;
+  color: black;
+}
+
+.popupHeader {
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30px 0 10px;
+  box-sizing: border-box;
+}
+
+.timer {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.timerAndClose {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.timer img {
+  width: 40px;
+}
+
+.finalScreen {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  z-index: 150;
+  font-size: xx-large;
+  text-align: center;
+}

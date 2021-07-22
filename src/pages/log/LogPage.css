@@ -1,0 +1,67 @@
+.landingLogoContainer {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logPage {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.logContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 400px;
+  color: white;
+}
+
+.logContainer .logInput {
+  border-radius: 3px;
+  height: 40px;
+  width: 200px;
+  background-color: transparent;
+  font-size: large;
+  color: white;
+  margin-top: 20px;
+  outline: none;
+  border: none;
+  border-bottom: solid 1px white;
+}
+
+.logContainer h2 {
+  font-size: xx-large;
+}
+
+.logContainer input::placeholder {
+  color: white;
+}
+
+.logContainer .submitButton {
+  width: auto;
+  margin-bottom: 30px;
+  font-size: large;
+  padding: 10px;
+  border: none;
+}
+
+.logPage p {
+  color: white;
+}
+
+.logDetail {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.errorMessage {
+  color: rgb(126, 13, 13);
+}

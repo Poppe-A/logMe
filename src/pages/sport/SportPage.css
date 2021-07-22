@@ -1,0 +1,109 @@
+.sportPage {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.sportPageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addSportButton {
+  color: white;
+  font-size: x-large;
+  margin-top: 15px;
+  padding: 5px 10px;
+  border: solid 1px white;
+}
+
+.sportTilesContainer {
+  width: 100vw;
+  height: 70vh;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  box-sizing: border-box;
+  overflow: scroll;
+}
+
+.sportTile {
+  width: 250px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  color: white;
+  text-align: center;
+  padding: 5px 30px;
+  box-sizing: border-box;
+
+  background: rgba(255, 255, 255, 0.329);
+
+  border-radius: 3px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.sportTile img {
+  width: 40px;
+}
+
+.sportForm {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.719);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+}
+
+.sportFormContent {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px 10px;
+  background-color: white;
+  box-sizing: border-box;
+}
+
+.sportFormContent h3 {
+  font-size: x-large;
+}
+
+.sportFormContent img {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 20px;
+}
+
+.sportFormContent input {
+  font-size: large;
+  padding: 5px;
+  outline: none;
+  border: none;
+  border-bottom: solid 1px black;
+}
+
+.sportFormContent .submitButton {
+  font-size: large;
+  padding: 10px;
+  border: none;
+}
+
+.addSport {
+}

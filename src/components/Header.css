@@ -1,0 +1,15 @@
+.appHeader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  padding: 5px 30px;
+  box-sizing: border-box;
+}
+
+.appHeader img {
+  height: 60px;
+}

@@ -3,10 +3,15 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import LogContext from './contexts/LogContext';
+import SeshContext from './contexts/CurrentSessionContext';
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <LogContext>
+      <SeshContext>
+        <App />
+      </SeshContext>
+    </LogContext>
   </React.StrictMode>,
   document.getElementById('root')
 );

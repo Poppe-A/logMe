@@ -1,0 +1,32 @@
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.largeLogo .logo1 {
+  font-size: 72px;
+}
+
+.largeLogo .logo2 {
+  font-size: 68px;
+}
+
+.smallLogo .logo1 {
+  font-size: 28px;
+}
+
+.smallLogo .logo2 {
+  font-size: 26px;
+}
+
+.logo1 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  color: wheat;
+}
+
+.logo2 {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
+  color: wheat;
+}

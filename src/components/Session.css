@@ -1,0 +1,42 @@
+.session {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sessionTile {
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: x-large;
+  margin-bottom: 5px;
+}
+
+.sessionDetail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+}
+
+.detail-open {
+  height: 200px;
+  transform: translateY(0) scale(1);
+  opacity: 1;
+  transition: all 1.2s ease;
+}
+
+.detail-close {
+  opacity: 0.1;
+  transform: translateY(-10%) scale(0.1);
+  height: 0;
+  transition: all 1.2s ease;
+}
+
+.sessionDetailExercise {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
