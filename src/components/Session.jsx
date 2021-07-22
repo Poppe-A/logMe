@@ -6,13 +6,11 @@ export default function Session({ session, displaySport }) {
 
   useEffect(() => {
     const dateToFormat = new Date(session.date);
-    console.log('eee', session.date, dateToFormat);
-
     setDate(dateToFormat.toLocaleDateString());
   }, []);
 
-  const detail = session.sessionExercise.map((elm) => (
-    <div className="sessionDetailExercise">
+  const detail = session.sessionExercise.map((elm, index) => (
+    <div key={index} className="sessionDetailExercise">
       <p>{elm.name}</p>
       <div>
         <div>{elm.score.length ? elm.score.join(' - ') : elm.score[0]}</div>

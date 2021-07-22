@@ -14,7 +14,6 @@ export default function WelcomePage() {
 
   useEffect(() => {
     LogService.getUser().then((res) => {
-      console.log('zeez', res);
       setUsername(res.data.user.username);
     });
   }, []);

@@ -23,11 +23,10 @@ export default function SessionPage(props) {
   if (!sessions.length) {
     sessionTiles = 'No sports found with your account';
   } else {
-    sessionTiles = sessions.map((session) => (
-      <Session session={session} displaySport={sport === 'all'} />
+    sessionTiles = sessions.map((session, index) => (
+      <Session key={index} session={session} displaySport={sport === 'all'} />
     ));
   }
-  console.log('all', sport);
   return (
     <div className="sessionPage">
       <BackView />
