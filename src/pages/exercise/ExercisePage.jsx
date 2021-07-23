@@ -35,7 +35,7 @@ export default function ExercisePage(props) {
     </div>
   ));
   if (!exercises.length) {
-    exercisesTiles = `No exercises found with ${sport.name}`;
+    exercisesTiles = `No ${sport} exercises found`;
   }
 
   const validForm = (e) => {

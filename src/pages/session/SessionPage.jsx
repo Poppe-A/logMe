@@ -21,7 +21,7 @@ export default function SessionPage(props) {
 
   let sessionTiles = null;
   if (!sessions.length) {
-    sessionTiles = 'No session found with this sport';
+    sessionTiles = `No ${sport} session found`;
   } else {
     sessionTiles = sessions.map((session, index) => (
       <Session key={index} session={session} displaySport={sport === 'all'} />
